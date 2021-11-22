@@ -1,0 +1,64 @@
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid #ff78dd;
+  }
+
+.imagen{
+    background-color: rgb(255, 107, 107);
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.textop{
+    background-color: rgb(250, 242, 131);
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
+.bodybg1{
+    background-image: url('..//images/gradient.jpg');
+}
+
+.bodybg2{
+    background-color: rgb(185, 255, 232);
+}
+
+.imagen2{
+    width: 50px;
+    height: 50px;
+}
+
+.enlace{
+    font-size: 25px;
+    color: rgb(138, 14, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

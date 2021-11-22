@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+</head>
+    <body class="bodybg1">
+        <h1>Contactar con el veterinario</h1>
+        <p> Para contactar rellena el siguiente formulario:</p>
+        <form method="POST" action="">
+            <label for="nombre"> Introduce tu nombre: </label><br>
+            <input type="text" name="nom_cli" id="nombre" placeholder="Introduce tu nombre"><br>
+            <label for="email"> Introduce tu email: </label><br>
+            <input type="email" name="email_cli" id="email" placeholder="Introduce tu email"><br>
+            <label for="date"> Introduce la fecha de adopcion: </label><br>
+            <input type="date" name="anyo_mat" id="date"><br><br>
+            <label for="observaciones">Campo de observaciones: </label><br>
+            <textarea id="observaciones" name="obs" rows="4" cols="30"></textarea><br><br>
+            Tipo de animal: <br>
+            <input type="radio" name="tipo_seguro" id="perro" value="Perro"> 
+            <label for="perro">Perro</label><br>
+            <input type="radio" name="tipo_seguro" id="gato" value="gato">
+            <label for="gato">Gato</label><br><br>
+            <label for="telefono"> Introduce tu telefono: </label><br>
+            <input type="number" name="tel_cli" id="telefono" placeholder="Introduce tu telefono"><br><br>
+            <label for="horario">Horario preferido de llamada: </label><br>
+            <select name="rango_llamadas" id="horario">
+                <option value="selec">Selecciona un rango horario</option>
+                <option value="8-12">8-12</option>
+                <option value="12-16">12-16</option>
+                <option value="16-20">16-20</option>
+            </select>
+            <br><br>
+            <input type="reset" value="Resetear formulario">
+            <input type="submit" value="Enviar formulario">
+        </form>
+        <br>
+        <a href="position.html"><img src="images/izquierda.jpg" class="imagen2" alt="Volver a pagina inicio"></a>
+    </body>
+</html>
